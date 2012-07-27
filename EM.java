@@ -59,9 +59,9 @@ public class EM {
 	// membership probability
 	private double[][] memberProb;
 
-	MyAbstractDoubleVector[] data; // input data
-	MyAbstractDoubleVector[] mu; // mean or center
-	AbstractDoubleMatrix[] sigma;// covariance matrices
+	private MyAbstractDoubleVector[] data; // input data
+	private MyAbstractDoubleVector[] mu; // mean or center
+	private AbstractDoubleMatrix[] sigma;// covariance matrices
 
 	/*
 	 * constructor
